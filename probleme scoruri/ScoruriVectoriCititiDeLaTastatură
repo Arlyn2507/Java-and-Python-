@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ScoreVectoriCititiDeLaTastatură {
+public class ScoruriVectoriCititiDeLaTastatură {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -15,14 +15,14 @@ public class ScoreVectoriCititiDeLaTastatură {
 		int mediaScorurilor = score[0] + score[1] + score[2] / 3;
         
 		if (mediaScorurilor >= 50) {
-			System.out.println("Ai luat examenul cu media: " + mediaScorurilor + "!"); //media scorurilor e de tip întreg(int)
+			System.out.println("Ai luat examenul cu media: " + mediaScorurilor + "!");
 		}
-		else 
-		System.out.print("Media scorurilor este: " + (score[0] + score[1] + score[2]) / (float) 3 + "!" + " " + "Încearcă mai mult \"data viitoare\"!"); //media scorurilor e cu zecimale(float)
+		else {
+		System.out.print("Media scorurilor este: " + (score[0] + score[1] + score[2]) / (float) 3 + "!" + " " + "Încearcă mai mult \"data viitoare\"!");
+		}
 		sc.close();
 
 	}
 
 }
-
 
