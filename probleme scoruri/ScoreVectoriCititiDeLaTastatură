@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class ScoreVectoriCititiDeLaTastatură {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[] score = new int[3]; //vector de 3 elemente (numere întregi)
+		System.out.print("Scrie score 1: ");
+		score[0] = sc.nextInt();
+		System.out.print("Scrie score 2: ");
+		score[1] = sc.nextInt();
+		System.out.print("Scrie score 3: ");
+		score[2] = sc.nextInt();
+		
+		int mediaScorurilor = score[0] + score[1] + score[2] / 3;
+        
+		if (mediaScorurilor >= 50) {
+			System.out.println("Ai luat examenul cu media: " + mediaScorurilor + "!"); //media scorurilor e de tip întreg(int)
+		}
+		else 
+		System.out.print("Media scorurilor este: " + (score[0] + score[1] + score[2]) / (float) 3 + "!" + " " + "Încearcă mai mult \"data viitoare\"!"); //media scorurilor e cu zecimale(float)
+		sc.close();
+
+	}
+
+}
+
+
