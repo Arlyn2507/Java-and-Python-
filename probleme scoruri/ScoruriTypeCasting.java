@@ -9,3 +9,5 @@ public class ScoruriTypeCasting {
 		System.out.print("Media: " + (score1 + score2 + score3) / (float) 3);
 	}
 }
+
+//Media scorurilor este: 59.333332
