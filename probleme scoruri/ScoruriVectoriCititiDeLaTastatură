@@ -4,25 +4,24 @@ public class ScoruriVectoriCititiDeLaTastatură {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int[] score = new int[3]; //vector de 3 elemente (numere întregi)
+		int[] scor = new int[3]; //vector de 3 elemente (numere întregi)
 		System.out.print("Scrie score 1: ");
-		score[0] = sc.nextInt();
+		scor[0] = sc.nextInt();
 		System.out.print("Scrie score 2: ");
-		score[1] = sc.nextInt();
+		scor[1] = sc.nextInt();
 		System.out.print("Scrie score 3: ");
-		score[2] = sc.nextInt();
+		scor[2] = sc.nextInt();
 		
-		int mediaScorurilor = score[0] + score[1] + score[2] / 3;
+		int mediaScorurilor = scor[0] + scor[1] + scor[2] / 3;
         
 		if (mediaScorurilor >= 50) {
 			System.out.println("Ai luat examenul cu media: " + mediaScorurilor + "!");
 		}
 		else {
-		System.out.print("Media scorurilor este: " + (score[0] + score[1] + score[2]) / (float) 3 + "!" + " " + "Încearcă mai mult \"data viitoare\"!");
+		System.out.print("Media scorurilor este: " + (scor[0] + scor[1] + scor[2]) / (float) 3 + "!" + " " + "Încearcă mai mult \"data viitoare\"!");
 		}
 		sc.close();
 
 	}
 
 }
-
