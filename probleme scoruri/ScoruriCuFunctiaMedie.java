@@ -19,9 +19,9 @@ public class ScoruriCuFunctiaMedie {
 	}
 
 	public static float medie(int vector[]) {
-		int suma = 0; // variabila care numară
+		int suma = 0; // variabilă care numară
 		for (int i = 0; i < n; i++) {
-			suma += vector[i]; // sau: suma =
+			suma += vector[i]; // sau: suma = suma + vector[i]
 		}
 		return suma / (float) n;
 	}
