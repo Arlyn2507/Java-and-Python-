@@ -18,4 +18,4 @@ public class App {
 }
 
 //cu inheritance(moștenire) puteți face fiecare dintre cei 2 cântăreți, Shakira și Elvis 
-//să cânte orice gen de muzică doriți voi.
+//să cânte orice gen de muzică prezent în metodele din clasa Cântăret.
