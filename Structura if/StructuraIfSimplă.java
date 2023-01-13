@@ -12,7 +12,7 @@ public class StructuraIfSimplă {
 		System.out.print("y = ");
 		int y = sc.nextInt();
 
-		System.out.println(); // System.out.println(); gol pentru a scrie mesajul pe un rând mai jos
+		System.out.println(); // System.out.println(); gol pentru a scrie mesajul condiției pe un rând mai jos
 		
 		if (x < y) {
 			System.out.println("x este mai mic decât y");
