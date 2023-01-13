@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class Calculator {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+	Scanner sc = new Scanner(System.in);
 		
-		// Scrie o valoare pentru x:
-		System.out.print("x = ");
+	// Scrie o valoare pentru x:
+	System.out.print("x = ");
         int x = sc.nextInt(); 
         
         // Scrie o valoare pentru x:
