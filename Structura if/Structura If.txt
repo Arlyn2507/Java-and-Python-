@@ -10,4 +10,4 @@ else (x == y) {
 System.out.println("x este egal cu y");
 }
 
-- parantezele reprezintă o expresia booleană care trebuie întrebată și la care trebuie să raspăundă pentru a decide dacă să facă un lucru sau nu, deci dacă expresia este adevărată sau falsă 
+- parantezele reprezintă o expresia booleană care trebuie întrebată și care trebuie să râspundă pentru a decide dacă să facă un lucru sau nu, cu alte cuvinte dacă expresia din paranteze este adevărată sau falsă 
