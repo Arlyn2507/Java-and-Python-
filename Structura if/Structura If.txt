@@ -1,0 +1,13 @@
+if (x < y) { 
+System.out.println("x este mai mic decât y");
+}
+
+else if (x > y) {
+System.out.println("x este mai mare decât y");
+}
+
+else (x == y) {
+System.out.println("x este egal cu y");
+}
+
+- prantezele reprezintă o expresia booleană care trebuie întrebată și la care trebuie să raspăundă pentru a decide dacă să facă un lucru sau nu, deci dacă expresia este adevărată sau falsă 
