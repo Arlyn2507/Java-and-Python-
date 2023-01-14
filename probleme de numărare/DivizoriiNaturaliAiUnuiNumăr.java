@@ -14,7 +14,7 @@ public class DivizoriiNaturaliAiUnuiNumăr {
 
 		for (int d = 1; d <= n / 2; d++) { // se parcurg toate numerele din intervalul de la 1 la n / 2
 			if (n % d == 0) { // se selectează acele numere d care sunt sunt divizori ai numărului n
-				System.out.print(d + " ");
+				System.out.print(d + " "); // va scrie în consolă divizorii lui separați de un spațiu
 			}
 			sc.close();
 		}
