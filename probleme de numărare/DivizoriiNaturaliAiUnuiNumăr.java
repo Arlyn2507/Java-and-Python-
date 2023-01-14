@@ -22,3 +22,4 @@ public class DivizoriiNaturaliAiUnuiNumăr {
 }
 
 // n % d == 0 => x se împarte exact la d, împărțire care dă restul 0
+// se parcurge intervalul de la 1 la n pentru a include și numărul n ca divizor
