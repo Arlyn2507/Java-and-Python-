@@ -12,7 +12,7 @@ public class DivizoriiNaturaliAiUnuiNumăr {
 
 		System.out.println("Divizorii numărului " + n + " sunt: ");
 
-		for (int d = 1; d <= n / 2; d++) { // se parcurg toate numerele din intervalul de la 1 la n / 2
+		for (int d = 1; d <= n; d++) { // se parcurg toate numerele din intervalul de la 1 la n
 			if (n % d == 0) { // se selectează acele numere d care sunt sunt divizori ai numărului n
 				System.out.print(d + " "); // va scrie în consolă divizorii lui separați de un spațiu
 			}
