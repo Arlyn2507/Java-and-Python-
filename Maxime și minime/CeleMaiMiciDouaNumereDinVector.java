@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class CeleMaiMiciDouaNumereDinVector {
 
 	public static void main(String[] args) {
